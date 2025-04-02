@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> <!-- connect font -->
+    <style>
+        body {
+            font-family: "PT Serif", serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-right: 866px;
+            font-size: 42px;
+            color: #3737f5;
+        }
+
+        hr {
+            margin: 24px;
+        }
+
+        .buttons div {
+            display: inline-block; /* centerize buttons */
+            margin-right: 24px;
+            margin-bottom: 54px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-right: 292px;
+        }
+
+        .buttons #home {
+            color: #3737f5;
+            font-weight: bold;
+        }
+
+        .cutlery_div {
+            position: relative; /* in relation to child elements */
+            width: 1065px;
+            height: 650px;
+            margin-left: 460px;
+            background-image: url('Cutlery.png'); /* to fill div block with the image */
+            background-attachment: fixed; /* put it fixed */
+            background-position: center; /* centerize it */
+        }
+
+        .collection-title {
+            position: absolute; /* put on parent element */
+            top: 12%;
+            left: 40%;
+            transform: translate(-50%, -50%); /* centerize and text won't shift */
+            font-size: 84px;
+            text-align: left;
+            color: #3737f5;
+        }
+
+        .shop_now {
+            position: absolute;
+            background-color: white;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px 50px;
+            transform: translate(-50%, -50%);
+            top: 60%;
+            left: 20%;
+        }
+
+        h3 {
+            text-align: center;
+            margin-left: 58px;
+            font-size: 48px;
+            color: #3737f5;
+        }
+
+        .images_container {
+            display: flex; /* put them in a row */
+            flex-wrap: wrap; /* save source res of the images by shifting them to down if not fit */
+            justify-content: center; /* centerize them */
+            gap: 30px;
+            margin-top: 20px;
+            width: 1150px;
+            margin-left: auto;
+            margin-right: 325px;
+        }
+
+        .images_container div {
+            width: 45%;
+            text-align: center;
+        }
+
+        .images_container img {
+            width: 100%;
+        }
+
+        .images_container p {
+            color: #3737f5;
+            font-weight: bold;
+            margin-top: 70px;
+            margin-bottom: 60px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BON</h1>
+    <hr>
+
+    <div class="buttons">
+        <div id="home">Home</div>
+        <div>Decor</div>
+        <div>Your Kitchen</div>
+        <div>Your Bathroom</div>
+        <div>Your Bedroom</div>
+        <div>About</div>
+        <div>Contact</div>
+    </div>
+
+    <div class="cutlery_div">
+        <div class="shop_now">Shop Now</div>
+        <h2 class="collection-title"> Fall Cutlery Collection </h2>
+    </div>
+
+    <h3>Defining Styling Since 1965</h3>
+
+    <div class="images_container">
+        <div>
+            <img src="Decor.png" alt="Decor">
+            <p>Decor</p>
+        </div>
+        <div>
+            <img src="Bedroom.png" alt="Bedroom">
+            <p>Your Bedroom</p>
+        </div>
+        <div>
+            <img src="Kitchen.png" alt="Kitchen">
+            <p>Your Kitchen</p>
+        </div>
+        <div>
+            <img src="Bathroom.png" alt="Bathroom">
+            <p>Your Bathroom</p>
+        </div>
+    </div>
+    
+
+</body>
+</html>
