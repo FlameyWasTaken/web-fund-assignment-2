@@ -1,2 +1,2 @@
 # web-fund-assignment-2
-The second Assignment assigned to "Fundamentals of WEB Design"
+The second Assignment of "Fundamentals of WEB Design"
